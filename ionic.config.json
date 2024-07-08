@@ -1,0 +1,11 @@
+{
+  "name": "ionic2-app-base",
+  "app_id": "",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "hooks": {
+    "ionic:serve:before": "./scripts/build-before.js"
+  }
+}
